@@ -1,0 +1,47 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myteam</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+    <!-- SITE-HEADER -->
+    <header class="site-header site-header--open">
+      <div class="container site-header__container">
+        <a class="logo site-header__logo" href="index.html">
+          <img class="logo__img" src="img/myteam-logo.svg" alt="site logo" width="160" height="40">
+        </a>
+
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="index.html">Home</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="about.html">About</a>
+            </li>
+          </ul>
+
+          <a class="button button--light sitenav__contact-button" href="contact.html">Contact us</a>
+        </nav>
+
+        <button class="site-header__sitenav-toggler" type="button" aria-label="menu toggler"></button>
+      </div>
+    </header>
+
+
+
+    <script>
+      var elSiteHeader = document.querySelector('.site-header');
+      var elSitenavToggler = elSiteHeader.querySelector('.site-header__sitenav-toggler');
+
+      elSitenavToggler.addEventListener('click', function () {
+        elSiteHeader.classList.toggle('site-header--open');
+      });
+    </script>
+
+  </body>
+  </html>

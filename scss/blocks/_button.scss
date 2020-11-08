@@ -1,0 +1,73 @@
+.button {
+  padding: 8px 30px;
+  display: inline-block;
+  vertical-align: baseline;
+  border: 2px solid transparent;
+  border-radius: 24px;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: lowercase;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+
+  &:active{
+    opacity: 0.7;
+  }
+}
+
+.button--light {
+  border-color: $white;
+  color: $white;
+
+  &:hover{
+    background-color: $white;
+    color: $dark-green;
+  }
+
+  &[disabled],
+  &.disabled{
+    opacity: 0.25;
+    background-color: transparent;
+    color: $white;
+    pointer-events: none;
+  }
+}
+
+.button--dark {
+  border-color: $sacramento-state-green;
+  color: $sacramento-state-green;
+
+  &:hover{
+    background-color: $sacramento-state-green;
+    color: $white;
+  }
+
+  &[disabled],
+  &.disabled{
+    opacity: 0.25;
+    background-color: transparent;
+    color: $sacramento-state-green;
+    pointer-events: none;
+  }
+}
+
+.button--secondary {
+  border-color: $white;
+  color: $dark-green;
+  background-color: $white;
+
+  &:hover{
+    border-color: $rapture-blue;
+    background-color: $rapture-blue;
+    color: $dark-green;
+  }
+
+  &[disabled],
+  &.disabled{
+    opacity: 0.25;
+    background-color: $rapture-blue;
+    color: $dark-green;
+    pointer-events: none;
+  }
+}

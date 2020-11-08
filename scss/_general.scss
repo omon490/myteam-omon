@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Livvic", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $white;
+  background-color: $midnight-green;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
