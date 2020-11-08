@@ -843,6 +843,127 @@ img {
   }
 }
 
+.features-section {
+  padding: 140px 0;
+  background-color: #012F34;
+  background-image: url("../../img/features-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 760px) 438px;
+  background-size: auto 244px;
+}
+
+.features-section__devider {
+  max-width: 50px;
+  height: 4px;
+  display: block;
+  margin-bottom: 54px;
+  background-color: #F67E7E;
+}
+
+.features-section__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.features-section__heading {
+  max-width: 445px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.features-section__right-wrapper {
+  max-width: 540px;
+}
+
+.features-section__right-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.features-section__right-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 768px) {
+  .features-section {
+    padding: 100px 0;
+    background-position: calc(50% + 383px) 0;
+  }
+  .features-section__devider {
+    margin-left: 60px;
+  }
+  .features-section__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 60px;
+  }
+  .features-section__heading {
+    margin-bottom: 64px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .features-section__right-wrapper {
+    max-width: 573px;
+  }
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  display: block;
+  margin-right: 23px;
+}
+
+.features__experienced::before {
+  background-image: url("../../img/features-experienced.svg");
+}
+
+.features__implement::before {
+  background-image: url("../../img/features-implement.svg");
+}
+
+.features__productivity::before {
+  background-image: url("../../img/features-productivity.svg");
+}
+
+.features__wrapper {
+  max-width: 445px;
+}
+
+.features__heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F67E7E;
+}
+
+.features__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+}
+
 @-webkit-keyframes slide-in {
   from {
     -webkit-transform: translateX(100%);

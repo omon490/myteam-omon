@@ -1,0 +1,48 @@
+
+.features {
+  display: flex;
+  &::before{
+    content: "";
+    width: 72px;
+    height: 72px;
+    display: block;
+    margin-right: 23px;
+  }
+}
+
+.features__experienced{
+  &::before{
+    background-image: url("../../img/features-experienced.svg");
+  }
+}
+
+.features__implement{
+  &::before{
+    background-image: url("../../img/features-implement.svg");
+  }
+}
+
+.features__productivity{
+  &::before{
+    background-image: url("../../img/features-productivity.svg");
+  }
+}
+
+.features__wrapper {
+  max-width: 445px;
+}
+
+.features__heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: $light-coral;
+}
+
+.features__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+}
