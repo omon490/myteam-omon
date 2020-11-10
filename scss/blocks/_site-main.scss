@@ -1,3 +1,9 @@
 .site-main {
   padding-top: 56px;
 }
+
+@media only screen and (max-width: 900px) {
+  .site-main {
+    padding-top: 30px;
+  }
+}

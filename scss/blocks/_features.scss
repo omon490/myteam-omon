@@ -7,6 +7,7 @@
     height: 72px;
     display: block;
     margin-right: 23px;
+    flex-shrink: 0;
   }
 }
 
@@ -29,6 +30,7 @@
 }
 
 .features__wrapper {
+  width: 100%;
   max-width: 445px;
 }
 
@@ -46,3 +48,28 @@
   font-size: 15px;
   line-height: 25px;
 }
+
+@media only screen and (max-width: 375px) {
+  .features {
+    &::before{
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 16px;
+    }
+  }
+
+  .features__wrapper {
+    width: 100%;
+    max-width: 327px;
+  }
+
+  .features__heading {
+    text-align: center;
+  }
+
+  .features__text {
+    max-width: 327px;
+    text-align: center;
+  }
+}
+

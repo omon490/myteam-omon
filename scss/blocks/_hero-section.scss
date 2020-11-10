@@ -45,6 +45,74 @@
   line-height: 28px;
 }
 
+@media only screen and (max-width: 1055px) {
+  .hero-section{
+    padding-bottom: 150px;
+    background-image: url("../../img/hero-bg-2.svg");
+    background-position: calc(50% + 332px) 350px;
+    background-size: auto 200px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .hero-section{
+    padding-bottom: 150px;
+    background-image: url("../../img/hero-bg-2.svg");
+    background-position: calc(50% + 232px) 284px;
+    background-size: auto 200px;
+  }
+
+  .hero-section__wrapper {
+    align-items: center;
+  }
+
+  .hero-section__heading {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-section {
+    padding-bottom: 190px;
+    background-image: url("../img/hero-bg-2.svg");
+    background-position: calc(50%) 340px;
+    background-size: auto 250px;
+  }
+
+  .hero-section__wrapper {
+    flex-direction: column;
+  }
+
+  .hero-section__heading {
+    text-align: center;
+    max-width: 635px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .hero-section__text-wrapper {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-section__text-devider {
+    display: none;
+  }
+
+  .hero-section__text {
+    max-width: 600px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 28px;
+  }
+}
+
+
 @media only screen and (max-width: 768px) {
   .hero-section {
     padding-bottom: 270px;
@@ -55,23 +123,18 @@
 
   .hero-section__wrapper {
     flex-direction: column;
-    justify-content: space-between;
   }
 
   .hero-section__heading {
     text-align: center;
     max-width: 635px;
     margin-bottom: 24px;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 64px;
     line-height: 56px;
   }
 
   .hero-section__text-wrapper {
     max-width: 457px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .hero-section__text-devider {
@@ -81,8 +144,6 @@
   .hero-section__text {
     max-width: 457px;
     text-align: center;
-    font-size: 15px;
-    line-height: 28px;
   }
 }
 
@@ -97,9 +158,10 @@
 
 @media only screen and (max-width: 375px) {
   .hero-section {
-    padding-bottom: 180px;
+    padding-top: 80px;
+    padding-bottom: 195px;
     background-image: url("../img/hero-bg-2.svg");
-    background-position: calc(50%) 470px;
+    background-position: calc(50%) 390px;
     background-size: auto 190px;
   }
 

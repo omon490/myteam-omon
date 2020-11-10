@@ -69,3 +69,42 @@
     max-width: 573px;
   }
 }
+
+
+@media only screen and (max-width: 375px) {
+  .features-section {
+    padding: 64px 0;
+    background-position: calc(50% + 383px) 0;
+  }
+
+
+  .features-section__devider {
+    margin-bottom: 32px;
+    margin-left: 0;
+  }
+
+  .features-section__wrapper {
+    margin-left: 0;
+    flex-direction: column;
+  }
+
+  .features-section__heading {
+    max-width: 240px;
+    margin-bottom: 56px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .features-section__right-wrapper {
+    max-width: 327px;
+  }
+
+  .features-section__right-list {
+    max-width: 327px;
+  }
+
+  .features-section__right-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
