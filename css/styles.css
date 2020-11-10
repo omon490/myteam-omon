@@ -1309,6 +1309,34 @@ img {
   border-radius: 50%;
 }
 
+.contact-cta {
+  padding: 76px 0;
+  background-color: #F67E7E;
+  background-image: url("../../img/contact-cta-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 648px) 40px;
+  background-size: contain;
+}
+
+.contact-cta__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-cta__heading {
+  margin: 0;
+  margin-left: 100px;
+  margin-right: 260px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012F34;
+}
+
 @-webkit-keyframes slide-in {
   from {
     -webkit-transform: translateX(100%);
