@@ -1,6 +1,5 @@
 
 .features-section {
-  display: none;
   padding: 140px 0;
   background-color: $sacramento-state-green;
   background-image: url("../img/features-bg.svg");
@@ -43,5 +42,108 @@
 
 .features-section__right-item:not(:last-child) {
   margin-bottom: 32px;
+}
+
+// MEDIA
+
+@include breakpoint-down (1050) {
+  .features-section {
+    background-image: url("../img/features-bg.svg");
+    background-position: right -100px bottom;
+  }
+
+  .features-section__heading {
+    max-width: 400px;
+  }
+
+  .features-section__right-wrapper {
+    max-width: 500px;
+  }
+}
+
+@include breakpoint-down (960) {
+  .features-section {
+    background-position: right -100px bottom;
+  }
+
+  .features-section__heading {
+    max-width: 350px;
+  }
+
+  .features-section__right-wrapper {
+    max-width: 450px;
+  }
+}
+
+@include breakpoint-down (890) {
+  .features-section {
+    background-position: right -100px top;
+  }
+}
+
+@include breakpoint-down (768) {
+  .features-section {
+    padding: 100px 0;
+  }
+
+  .features-section__devider{
+    margin-left: 50px;
+  }
+
+  .features-section__wrapper{
+    margin-left: 50px;
+    flex-direction: column;
+  }
+
+  .features-section__heading{
+    max-width: 445px;
+    margin-bottom: 64px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .features-section__right-wrapper{
+    max-width: 573px;
+  }
+}
+
+@include breakpoint-down (660) {
+  .features-section__heading{
+    max-width: 380px;
+  }
+}
+
+@include breakpoint-down (560) {
+  .features-section {
+    padding: 64px 0;
+  }
+
+  .features-section__heading{
+    max-width: 300px;
+  }
+
+  .features-section__devider{
+    margin-left: 0;
+  }
+
+  .features-section__wrapper{
+    margin-left: 0;
+  }
+}
+
+@include breakpoint-down (490) {
+  .features-section__heading{
+    max-width: 270px;
+  }
+}
+
+@include breakpoint-down (450) {
+  .features-section__heading{
+    max-width: 240px;
+  }
+}
+
+@include breakpoint-down (375) {
+
 }
 

@@ -48,3 +48,46 @@
   font-size: 15px;
   line-height: 25px;
 }
+
+
+// MEDIA
+
+@include breakpoint-down (450) {
+  .features {
+    flex-direction: column;
+    &::before{
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .features__wrapper {
+    margin-bottom: 20px;
+  }
+
+  .features__heading {
+    text-align: center;
+  }
+
+  .features__text {
+    text-align: center;
+  }
+}
+
+@include breakpoint-down (375) {
+  .features {
+    &::before{
+      margin-bottom: 16px;
+    }
+  }
+
+  .features__heading {
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .features__wrapper {
+    margin-bottom: 48px;
+  }
+}
