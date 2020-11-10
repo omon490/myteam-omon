@@ -2,7 +2,7 @@
   padding-top: 56px;
 }
 
-@media only screen and (max-width: 900px) {
+@include breakpoint-down (900) {
   .site-main {
     padding-top: 30px;
   }

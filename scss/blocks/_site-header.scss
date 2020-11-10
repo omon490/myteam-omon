@@ -97,7 +97,7 @@
 
 }
 
-@media only screen and (max-width: 375px) {
+@include breakpoint-down (395) {
   .site-header {
     padding: 26px 0;
   }
@@ -135,7 +135,6 @@
 
   .site-header--open .button,
   .site-header--open .sitenav__list {
-    transform: translateX(100%);
     animation-name: slide-in;
     animation-duration: 0.6s;
     animation-timing-function: ease;

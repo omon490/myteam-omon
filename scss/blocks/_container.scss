@@ -6,7 +6,14 @@
   margin-right: auto;
 }
 
-@media only screen and (max-width: 375px) {
+@include breakpoint-down (490) {
+  .container{
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+}
+
+@include breakpoint-down (380) {
   .container{
     padding-left: 24px;
     padding-right: 24px;

@@ -1,8 +1,8 @@
 
 .hero-section {
   padding-bottom: 250px;
-  background-image: url("../../img/hero-bg-1.svg"),
-                    url("../../img/hero-bg-2.svg");
+  background-image: url("../img/hero-bg-1.svg"),
+                    url("../img/hero-bg-2.svg");
   background-repeat: no-repeat;
   background-position: calc(50% - 760px) 0, calc(50% + 365px) 355px;
   background-size: auto 200px;
@@ -45,133 +45,113 @@
   line-height: 28px;
 }
 
-@media only screen and (max-width: 1055px) {
-  .hero-section{
-    padding-bottom: 150px;
-    background-image: url("../../img/hero-bg-2.svg");
-    background-position: calc(50% + 332px) 350px;
-    background-size: auto 200px;
-  }
-}
 
-@media only screen and (max-width: 920px) {
+// MEDIA
+
+@include breakpoint-down (1060){
   .hero-section{
-    padding-bottom: 150px;
-    background-image: url("../../img/hero-bg-2.svg");
-    background-position: calc(50% + 232px) 284px;
-    background-size: auto 200px;
+    padding-bottom: 200px;
+    background-image: url("../img/hero-bg-2.svg");
+    background-position: right bottom -100px;
   }
 
-  .hero-section__wrapper {
+  .hero-section__wrapper{
     align-items: center;
   }
 
-  .hero-section__heading {
+  .hero-section__heading{
     font-size: 80px;
     line-height: 80px;
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .hero-section {
-    padding-bottom: 190px;
-    background-image: url("../img/hero-bg-2.svg");
-    background-position: calc(50%) 340px;
-    background-size: auto 250px;
+@include breakpoint-down (950){
+  .hero-section__heading{
+    max-width: 420px;
   }
+}
 
-  .hero-section__wrapper {
-    flex-direction: column;
-  }
-
-  .hero-section__heading {
-    text-align: center;
-    max-width: 635px;
-    margin-bottom: 24px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 80px;
-    line-height: 80px;
+@include breakpoint-down (860) {
+  .hero-section__heading{
+    font-size: 75px;
+    line-height: 75px;
   }
 
   .hero-section__text-wrapper {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 400px;
+  }
+}
+
+@include breakpoint-down (800) {
+  .hero-section__text-wrapper {
+    max-width: 350px;
+  }
+}
+
+@include breakpoint-down (768) {
+  .hero-section{
+    padding-bottom: 250px;
+    background-position: center bottom -100px;
   }
 
-  .hero-section__text-devider {
+  .hero-section__wrapper{
+    flex-direction: column;
+  }
+
+  .hero-section__heading{
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 64px;
+    line-height: 56px;
+  }
+
+  .hero-section__text-devider{
     display: none;
   }
 
-  .hero-section__text {
-    max-width: 600px;
+  .hero-section__text-wrapper{
+    max-width: 457px;
+  }
+
+  .hero-section__text{
     text-align: center;
     font-size: 15px;
     line-height: 28px;
   }
 }
 
-
-@media only screen and (max-width: 768px) {
+@include breakpoint-down (650) {
   .hero-section {
-    padding-bottom: 270px;
-    background-image: url("../../img/hero-bg-2.svg");
-    background-position: calc(50%) 375px;
-    background-size: auto 250px;
-  }
-
-  .hero-section__wrapper {
-    flex-direction: column;
-  }
-
-  .hero-section__heading {
-    text-align: center;
-    max-width: 635px;
-    margin-bottom: 24px;
-    font-size: 64px;
-    line-height: 56px;
-  }
-
-  .hero-section__text-wrapper {
-    max-width: 457px;
-  }
-
-  .hero-section__text-devider {
-    display: none;
-  }
-
-  .hero-section__text {
-    max-width: 457px;
-    text-align: center;
+    padding-top: 150px;
   }
 }
 
-@media only screen and (max-width: 650px) {
+@include breakpoint-down (520) {
   .hero-section {
-    padding-top: 140px;
-    background-image: url("../img/hero-bg-2.svg");
-    background-position: calc(50%) 510px;
-    background-size: auto 250px;
+    padding-bottom: 200px;
   }
 }
 
-@media only screen and (max-width: 375px) {
-  .hero-section {
-    padding-top: 80px;
-    padding-bottom: 195px;
-    background-image: url("../img/hero-bg-2.svg");
-    background-position: calc(50%) 390px;
-    background-size: auto 190px;
-  }
+@include breakpoint-down (490) {
 
-  .hero-section__heading {
-    text-align: center;
-    max-width: 327px;
-    margin-bottom: 18px;
+  .hero-section__heading{
+    font-size: 55px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@include breakpoint-down (380) {
+
+  .hero-section__heading{
     font-size: 40px;
     line-height: 40px;
+  }
+}
+
+@include breakpoint-down (375) {
+  .hero-section {
+    padding-top: 80px;
+    padding-bottom: 200px;
   }
 }

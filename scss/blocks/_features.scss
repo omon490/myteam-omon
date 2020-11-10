@@ -13,19 +13,19 @@
 
 .features__experienced{
   &::before{
-    background-image: url("../../img/features-experienced.svg");
+    background-image: url("../img/features-experienced.svg");
   }
 }
 
 .features__implement{
   &::before{
-    background-image: url("../../img/features-implement.svg");
+    background-image: url("../img/features-implement.svg");
   }
 }
 
 .features__productivity{
   &::before{
-    background-image: url("../../img/features-productivity.svg");
+    background-image: url("../img/features-productivity.svg");
   }
 }
 
@@ -48,28 +48,3 @@
   font-size: 15px;
   line-height: 25px;
 }
-
-@media only screen and (max-width: 375px) {
-  .features {
-    &::before{
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 16px;
-    }
-  }
-
-  .features__wrapper {
-    width: 100%;
-    max-width: 327px;
-  }
-
-  .features__heading {
-    text-align: center;
-  }
-
-  .features__text {
-    max-width: 327px;
-    text-align: center;
-  }
-}
-
