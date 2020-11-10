@@ -1,0 +1,39 @@
+
+.reviews {
+  background-image: url("../../img/blockquote-icon.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 67px 56px;
+}
+
+.reviews__text {
+  margin: 0;
+  margin-top: 36px;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 24px;
+}
+
+.reviews__name {
+  margin: 0;
+  margin-bottom: 2px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: $rapture-blue;
+}
+
+.reviews__job {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  font-style: italic;
+}
+
+.reviews__img {
+  border-radius: 50%;
+}
