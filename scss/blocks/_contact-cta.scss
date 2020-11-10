@@ -21,3 +21,115 @@
   line-height: 48px;
   color: $sacramento-state-green;
 }
+
+// MEDIA
+
+@include breakpoint-down (1150) {
+  .contact-cta {
+    background-position: left bottom -60px;
+  }
+}
+
+@include breakpoint-down (1100) {
+  .contact-cta {
+    padding: 84px 0;
+    background-size: 200px 244px;
+    background-position: left bottom -80px;
+  }
+  .contact-cta__heading {
+    margin-left: 80px;
+  }
+}
+
+@include breakpoint-down (1078) {
+  .contact-cta__heading {
+    margin-left: 60px;
+  }
+}
+
+@include breakpoint-down (1060) {
+  .contact-cta__heading {
+    margin-left: 50px;
+  }
+}
+
+@include breakpoint-down (1047) {
+  .contact-cta__heading {
+    margin-left: 40px;
+  }
+}
+
+@include breakpoint-down (1035) {
+  .contact-cta__heading {
+    margin-left: 20px;
+  }
+}
+
+@include breakpoint-down (1015) {
+  .contact-cta__heading {
+    font-size: 32px;
+    line-height: 32px;
+    margin-left: 60px;
+  }
+}
+
+@include breakpoint-down (888) {
+  .contact-cta__heading {
+    margin-right: 175px;
+    margin-left: 40px;
+  }
+}
+
+@include breakpoint-down (790) {
+  .contact-cta__heading {
+    margin-right: 100px;
+    margin-left: 50px;
+  }
+}
+
+@include breakpoint-down (768) {
+  .contact-cta__heading {
+    margin-right: 84px;
+    margin-left: 60px;
+  }
+}
+
+@include breakpoint-down (715) {
+  .contact-cta__heading {
+    margin-left: 50px;
+  }
+}
+
+@include breakpoint-down (703) {
+  .contact-cta__heading {
+    margin-left: 40px;
+    margin-right: 50px;
+  }
+}
+
+@include breakpoint-down (660) {
+  .contact-cta__heading {
+    margin-left: 50px;
+    margin-right: 40px;
+  }
+}
+
+@include breakpoint-down (515) {
+
+  .contact-cta__wrapper {
+    flex-direction: column;
+  }
+
+  .contact-cta__heading {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+}
+
+@include breakpoint-down (375) {
+  .contact-cta{
+    padding: 83px 0;
+    background-position: left bottom -90px;
+  }
+}

@@ -1337,6 +1337,117 @@ img {
   color: #012F34;
 }
 
+@media only screen and (max-width: 1150px) {
+  .contact-cta {
+    background-position: left bottom -60px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .contact-cta {
+    padding: 84px 0;
+    background-size: 200px 244px;
+    background-position: left bottom -80px;
+  }
+  .contact-cta__heading {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 1078px) {
+  .contact-cta__heading {
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .contact-cta__heading {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 1047px) {
+  .contact-cta__heading {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 1035px) {
+  .contact-cta__heading {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 1015px) {
+  .contact-cta__heading {
+    font-size: 32px;
+    line-height: 32px;
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 888px) {
+  .contact-cta__heading {
+    margin-right: 175px;
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .contact-cta__heading {
+    margin-right: 100px;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-cta__heading {
+    margin-right: 84px;
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 715px) {
+  .contact-cta__heading {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 703px) {
+  .contact-cta__heading {
+    margin-left: 40px;
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .contact-cta__heading {
+    margin-left: 50px;
+    margin-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .contact-cta__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-cta__heading {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .contact-cta {
+    padding: 83px 0;
+    background-position: left bottom -90px;
+  }
+}
+
 @-webkit-keyframes slide-in {
   from {
     -webkit-transform: translateX(100%);
