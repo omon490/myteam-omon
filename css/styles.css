@@ -1496,6 +1496,14 @@ img {
   color: #fff;
 }
 
+.site-footer__link:hover {
+  color: #F67E7E;
+}
+
+.site-footer__link:active {
+  opacity: 0.7;
+}
+
 .site-footer__middle-wrapper {
   margin-right: auto;
 }
@@ -1546,6 +1554,14 @@ img {
 
 .site-footer__social-img {
   display: block;
+}
+
+.site-footer__social-img:hover path {
+  fill: #F67E7E;
+}
+
+.site-footer__social-img:active {
+  opacity: 0.7;
 }
 
 .site-footer__reserved-text {
