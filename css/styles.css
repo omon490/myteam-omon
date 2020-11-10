@@ -1185,11 +1185,11 @@ img {
 }
 
 .reviews-section__heading {
+  max-width: 920px;
   margin: 0;
   margin-bottom: 56px;
   margin-left: auto;
   margin-right: auto;
-  width: 920px;
   font-weight: bold;
   font-size: 48px;
   line-height: 48px;
@@ -1218,6 +1218,56 @@ img {
   margin-left: 15px;
   margin-right: 15px;
   text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .rewievs-section {
+    background-image: url("../../img/reviews-bg-1.svg"), url("../../img/reviews-bg-2.svg");
+    background-position: left top, right bottom -100px;
+  }
+}
+
+@media only screen and (max-width: 875px) {
+  .rewievs-section {
+    padding-bottom: 80px;
+  }
+  .reviews-section__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .reviews-section__item {
+    max-width: 490px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  .reviews-section__heading {
+    max-width: 615px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .rewievs-section {
+    padding-bottom: 70px;
+  }
+  .reviews-section__heading {
+    max-width: 573px;
+  }
+  .reviews-section__item {
+    max-width: 573px;
+    margin-bottom: 48px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .rewievs-section {
+    padding-bottom: 100px;
+  }
 }
 
 .reviews {

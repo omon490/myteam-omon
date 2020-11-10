@@ -9,11 +9,11 @@
 }
 
 .reviews-section__heading {
+  max-width: 920px;
   margin: 0;
   margin-bottom: 56px;
   margin-left: auto;
   margin-right: auto;
-  width: 920px;
   font-weight: bold;
   font-size: 48px;
   line-height: 48px;
@@ -40,3 +40,56 @@
   text-align: center;
 }
 
+// MEDIA
+
+@include breakpoint-down (1000) {
+  .rewievs-section {
+    background-image: url("../../img/reviews-bg-1.svg"),
+                      url("../../img/reviews-bg-2.svg");
+    background-position: left top, right bottom -100px;
+  }
+}
+
+@include breakpoint-down (875) {
+  .rewievs-section {
+    padding-bottom: 80px;
+  }
+
+  .reviews-section__list{
+    flex-direction: column;
+  }
+
+  .reviews-section__item{
+    max-width: 490px;
+    margin-bottom: 30px;
+  }
+}
+
+@include breakpoint-down (815) {
+  .reviews-section__heading{
+    max-width: 615px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+@include breakpoint-down (768) {
+  .rewievs-section {
+    padding-bottom: 70px;
+  }
+
+  .reviews-section__heading{
+    max-width: 573px;
+  }
+
+  .reviews-section__item{
+    max-width: 573px;
+    margin-bottom: 48px;
+  }
+}
+
+@include breakpoint-down (375) {
+  .rewievs-section {
+    padding-bottom: 100px;
+  }
+}
