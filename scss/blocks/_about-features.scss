@@ -1,9 +1,8 @@
 .about-features {
-  display: none;
   padding: 140px 0;
   background-color: $deep-jungle-green;
-  background-image: url("../../img/about-feautures-bg.svg"),
-                    url("../../img/reviews-bg-1.svg");
+  background-image: url("../img/about-feautures-bg.svg"),
+                    url("../img/reviews-bg-1.svg");
   background-repeat: no-repeat;
   background-position: calc(50% - 780px) top, calc(50% + 688px) bottom;
   background-size: auto 200px, auto 100px;
@@ -36,4 +35,122 @@
   margin-right: 10px;
   margin-bottom: 78px;
   background-color: $sacramento-state-green;
+}
+
+@include breakpoint-down (1150) {
+  .about-features {
+    background-position: left -100px top, right bottom;
+    background-size: auto 200px, auto 100px;
+  }
+
+  .about-features__list {
+    max-width: 1000px;
+    justify-content: center;
+  }
+}
+
+@include breakpoint-down (820) {
+  .about-features__list {
+    margin: 0;
+    justify-content: space-between;
+  }
+
+  .about-features__item {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@include breakpoint-down (800) {
+  .about-features__item {
+    max-width: 300px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+
+@include breakpoint-down (768) {
+  .about-features__list {
+    width: 100%;
+    max-width: 575px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-features__item {
+    max-width: 281px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@include breakpoint-down (650) {
+  .about-features {
+    padding-top: 88px;
+    padding-bottom: 60px;
+  }
+
+  .about-features__heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .about-features__item {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@include breakpoint-down (580) {
+  .about-features {
+    background-position: left -100px top -100px, right bottom;
+    padding-top: 88px;
+    padding-bottom: 60px;
+  }
+
+  .about-features__item {
+    max-width: 380px;
+  }
+}
+
+@include breakpoint-down (480) {
+  .about-features__item {
+    max-width: 360px;
+  }
+}
+
+@include breakpoint-down (425) {
+  .about-features__heading {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .about-features__item {
+    max-width: 350px;
+  }
+}
+
+@include breakpoint-down (375) {
+  .about-features__heading {
+    margin-bottom: 48px;
+  }
+
+  .about-features__item {
+    max-width: 327px;
+    margin-bottom: 48px;
+  }
+}
+
+@include breakpoint-down (320) {
+  .about-features {
+    background-position: left -100px top -100px, right bottom -15px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+
+  .about-features__item {
+    max-width: 280px;
+    margin-bottom: 30px;
+  }
 }
