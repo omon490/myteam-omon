@@ -1,0 +1,37 @@
+
+.clients-section {
+  display: none;
+  padding: 140px 0;
+  background-color: $sacramento-state-green;
+  background-image: url("../../img/clients-bg-1.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 658px) top;
+  background-size: auto 200px;
+}
+
+.clients-section__heading {
+  margin: 0;
+  margin-bottom: 64px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.clients-section__list {
+  max-width: 1110px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-section__link {
+  display: block;
+}
+
+.clients-section__img {
+  display: block;
+}

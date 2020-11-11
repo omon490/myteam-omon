@@ -1,6 +1,12 @@
 .about-features {
+  display: none;
   padding: 140px 0;
   background-color: $deep-jungle-green;
+  background-image: url("../../img/about-feautures-bg.svg"),
+                    url("../../img/reviews-bg-1.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 780px) top, calc(50% + 688px) bottom;
+  background-size: auto 200px, auto 100px;
 }
 
 .about-features__heading {
@@ -14,7 +20,6 @@
 
 .about-features__list {
   width: 100%;
-  // max-width: 1110px;
   padding: 0;
   margin: 0;
   margin-left: -10px;
