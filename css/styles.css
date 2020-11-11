@@ -1649,13 +1649,14 @@ img {
     margin-right: 0;
   }
   .site-footer__left-wrapper {
-    margin-right: 350px;
+    margin-right: auto;
   }
   .site-footer__middle-wrapper {
     max-width: 175px;
     margin-right: 0;
   }
   .site-footer__social-wrapper {
+    width: 100%;
     margin-top: 32px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1666,8 +1667,102 @@ img {
             justify-content: space-between;
   }
   .site-footer__social-list {
+    max-width: 105px;
     margin-left: 0;
-    margin-right: 330px;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .site-footer__reserved-text {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .site-footer {
+    padding: 66px 0 64px 0;
+  }
+  .site-footer__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .site-footer__left-wrapper {
+    width: 100%;
+    max-width: 327px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .site-footer__logo-img {
+    max-width: 96px;
+    max-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .site-footer__list {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .site-footer__middle-wrapper {
+    width: 100%;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .site-footer__social-wrapper {
+    width: 100%;
+    margin-top: 32px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .site-footer__social-list {
+    max-width: 105px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .site-footer__reserved-text {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .site-footer__left-wrapper {
+    width: 100%;
+    max-width: 327px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .site-footer__list {
+    max-width: 120px;
+    margin-bottom: 24px;
+  }
+  .site-footer__middle-wrapper {
+    margin-bottom: 40px;
+  }
+  .site-footer__social-wrapper {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .site-footer__social-list {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+  }
+  .site-footer__reserved-text {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
