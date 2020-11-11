@@ -1,9 +1,8 @@
 
 .clients-section {
-  display: none;
   padding: 140px 0;
   background-color: $sacramento-state-green;
-  background-image: url("../../img/clients-bg-1.svg");
+  background-image: url("../img/clients-bg-1.svg");
   background-repeat: no-repeat;
   background-position: calc(50% - 658px) top;
   background-size: auto 200px;
@@ -34,4 +33,82 @@
 
 .clients-section__img {
   display: block;
+}
+
+@include breakpoint-down (1150) {
+  .clients-section {
+    background-position: left top;
+  }
+}
+
+@include breakpoint-down (990) {
+  .clients-section__list {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .clients-section__item {
+    max-width: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@include breakpoint-down (888) {
+  .clients-section {
+    background-position: left top -100px;
+  }
+}
+
+@include breakpoint-down (800) {
+  .clients-section {
+    padding: 110px 0;
+  }
+
+  .clients-section__heading {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+@include breakpoint-down (768) {
+  .clients-section {
+    padding: 100px 0;
+  }
+}
+
+@include breakpoint-down (650) {
+  .clients-section {
+    padding: 88px 0;
+  }
+
+  .clients-section__list {
+    flex-direction: column;
+  }
+
+  .clients-section__item {
+    max-width: 165px;
+    margin-bottom: 50px;
+  }
+}
+
+@include breakpoint-down (590) {
+  .clients-section {
+    background-position: left -100px top -100px;
+  }
+}
+
+@include breakpoint-down (375) {
+  .clients-section {
+    padding-bottom: 40px;
+  }
+}
+
+@include breakpoint-down (335) {
+  .clients-section__item {
+    max-width: 140px;
+    margin-bottom: 40px;
+  }
 }
