@@ -649,8 +649,8 @@ img {
   .site-header--open .sitenav::before {
     -webkit-animation-name: slide-in;
             animation-name: slide-in;
-    -webkit-animation-duration: 0.6s;
-            animation-duration: 0.6s;
+    -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
     -webkit-animation-timing-function: ease;
             animation-timing-function: ease;
     -webkit-animation-iteration-count: 1;
