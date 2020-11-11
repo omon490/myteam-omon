@@ -1,0 +1,75 @@
+
+.directors {
+  padding: 35px 24px 56px 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.directors--open .directors__details {
+  display: block;
+}
+
+.directors__wrapper {
+
+}
+
+.directors__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  max-width: 96px;
+  min-width: 96px;
+}
+
+.directors__name {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: $rapture-blue;
+}
+
+.directors__job {
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.directors__details {
+  display: none;
+}
+
+.directors__details-name {
+
+}
+.directors__details-text {
+}
+.directors__social {
+}
+.directors__social-item {
+}
+.directors__social-link {
+}
+.directors__social-img {
+}
+
+.directors__button {
+  padding: 0;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+}
+
+.directors__button-img {
+  position: absolute;
+  z-index: 1;
+  left: calc(50% - 26px);
+bottom: -10%;
+  &:hover circle {
+    fill: $rapture-blue;
+  }
+}

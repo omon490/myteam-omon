@@ -1,0 +1,34 @@
+.about-features {
+  padding: 140px 0;
+  background-color: $deep-jungle-green;
+}
+
+.about-features__heading {
+  margin: 0;
+  margin-bottom: 64px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.about-features__list {
+  width: 100%;
+  // max-width: 1110px;
+  padding: 0;
+  margin: 0;
+  margin-left: -10px;
+  margin-right: -10px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-features__item {
+  width: 100%;
+  max-width: 350px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 78px;
+  background-color: $sacramento-state-green;
+}
