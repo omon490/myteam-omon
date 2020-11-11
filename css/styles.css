@@ -1448,6 +1448,55 @@ img {
   }
 }
 
+.about-intro {
+  padding-bottom: 120px;
+  background-image: url("../../img/about-intro-bg.svg");
+  background-repeat: no-repeat;
+  background-size: auto 200px;
+  background-position: calc(50% + 760px) bottom;
+}
+
+.about-intro__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-intro__heading {
+  width: 100%;
+  max-width: 350px;
+  margin: 0;
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100px;
+}
+
+.about-intro__right-wrapper {
+  width: 100%;
+  max-width: 730px;
+}
+
+.about-intro__right-devider {
+  width: 50px;
+  height: 4px;
+  display: block;
+  background-color: #F67E7E;
+  margin-bottom: 40px;
+}
+
+.about-intro__right-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+}
+
 .site-footer {
   padding: 48px 0;
   background-color: #002529;
