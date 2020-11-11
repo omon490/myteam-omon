@@ -1969,6 +1969,130 @@ img {
   }
 }
 
+.contact {
+  padding-bottom: 120px;
+  background-image: url("../img/contact-bg-1.svg"), url("../img/contact-bg-2.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 760px) top, calc(50% + 755px) bottom;
+  background-size: auto 200px, auto 200px;
+}
+
+.contact__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact__left-wrapper {
+  max-width: 540px;
+}
+
+.contact__heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100px;
+}
+
+.contact__text {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #F67E7E;
+}
+
+.contact__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.contact__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contact__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__item::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  display: block;
+  margin-right: 23px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.contact__item--experienced::before {
+  background-image: url("../img/features-experienced.svg");
+}
+
+.contact__item--implement::before {
+  background-image: url("../img/features-implement.svg");
+}
+
+.contact__item--productivity::before {
+  background-image: url("../img/features-productivity.svg");
+}
+
+.contact__item-text {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.contact__right-wrapper {
+  width: 100%;
+  max-width: 542px;
+}
+
+.contact__form {
+  width: 100%;
+}
+
+.contact__input {
+  outline: 0;
+  width: 100%;
+  padding: 0 81px 17px 14px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.contact__textarea {
+  outline: 0;
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 0 81px 17px 14px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
 .site-footer {
   padding: 48px 0;
   background-color: #002529;
