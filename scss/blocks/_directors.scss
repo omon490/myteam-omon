@@ -13,6 +13,10 @@
   display: none;
 }
 
+.directors--open .directors__button--open {
+  display: block;
+}
+
 .directors__img {
   display: block;
   margin-left: auto;
@@ -94,6 +98,26 @@
 
   &:hover circle {
     fill: $rapture-blue;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
+
+.directors__button--open {
+  display: none;
+  padding: 0;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  left: calc(50% - 26px);
+  bottom: -10%;
+
+  &:hover circle {
+    fill: $light-coral;
   }
 
   &:active {

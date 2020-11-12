@@ -1756,6 +1756,10 @@ img {
   display: none;
 }
 
+.directors--open .directors__button--open {
+  display: block;
+}
+
 .directors__img {
   display: block;
   margin-left: auto;
@@ -1848,6 +1852,26 @@ img {
 }
 
 .directors__button:active {
+  opacity: 0.7;
+}
+
+.directors__button--open {
+  display: none;
+  padding: 0;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  left: calc(50% - 26px);
+  bottom: -10%;
+}
+
+.directors__button--open:hover circle {
+  fill: #F67E7E;
+}
+
+.directors__button--open:active {
   opacity: 0.7;
 }
 
