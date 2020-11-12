@@ -2122,8 +2122,9 @@ img {
   border-bottom: 1px solid #fff;
 }
 
-.contact__input:not(:placeholder-shown):invalid {
+.contact__input:not(:placeholder-shown):required {
   border-color: #F67E7E;
+  color: #F67E7E;
 }
 
 .contact__input-wrapper {
@@ -2167,6 +2168,11 @@ img {
   border: none;
   border-bottom: 1px solid #fff;
   color: #fff;
+}
+
+.contact__textarea:not(:placeholder-shown):required {
+  border-color: #F67E7E;
+  color: #F67E7E;
 }
 
 .contact__button {

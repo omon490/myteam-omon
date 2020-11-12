@@ -102,9 +102,11 @@
   border: none;
   border-bottom: 1px solid $white;
 }
+
 // WIP THIS INPUT
-.contact__input:not(:placeholder-shown):invalid {
+.contact__input:not(:placeholder-shown):required {
   border-color: $light-coral;
+  color: $light-coral;
 }
 
 .contact__input-wrapper {
@@ -148,6 +150,11 @@
   border: none;
   border-bottom: 1px solid $white;
   color: $white;
+}
+
+.contact__textarea:not(:placeholder-shown):required {
+  border-color: $light-coral;
+  color: $light-coral;
 }
 
 .contact__button {
