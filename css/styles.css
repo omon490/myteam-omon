@@ -1618,6 +1618,9 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .about-features__item {
@@ -1753,7 +1756,7 @@ img {
 }
 
 .directors--open .directors__wrapper {
-  display: none;
+  opacity: 0;
 }
 
 .directors--open .directors__button--open {
@@ -1788,6 +1791,14 @@ img {
 
 .directors__details {
   display: none;
+  position: absolute;
+  z-index: 1;
+  padding: 32px 48px 63px 48px;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #002529;
 }
 
 .directors__details-name {
