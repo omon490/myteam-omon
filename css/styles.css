@@ -2086,6 +2086,7 @@ img {
 }
 
 .contact__textarea {
+  resize: none;
   outline: 0;
   width: 100%;
   margin-bottom: 24px;
