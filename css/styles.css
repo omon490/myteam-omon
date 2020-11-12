@@ -2111,7 +2111,7 @@ img {
 .contact__input {
   outline: 0;
   width: 100%;
-  padding: 0 81px 17px 14px;
+  padding: 5px 81px 17px 14px;
   margin-bottom: 24px;
   font-weight: 600;
   font-size: 15px;
@@ -2120,6 +2120,36 @@ img {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #fff;
+}
+
+.contact__input-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.contact__input-email-error {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  top: 80%;
+  left: 2%;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 13px;
+  color: #F67E7E;
+}
+
+.contact__input-email:not(:placeholder-shown):invalid {
+  color: #F67E7E;
+}
+
+.contact__input-email:not(:placeholder-shown):invalid + .contact__input-email-error {
+  display: block;
+}
+
+.contact__input-email:not(:placeholder-shown):valid {
+  background-color: transparent;
+  color: #fff;
 }
 
 .contact__textarea {

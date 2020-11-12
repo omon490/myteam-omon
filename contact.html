@@ -54,9 +54,14 @@
           </div>
 
           <div class="contact__right-wrapper">
-            <form class="contact__form" action="echo.htmlacademy.ru" method="POST" aria-label="contact form">
+            <form class="contact__form" action="echo.htmlacademy.ru" method="POST" aria-label="contact form" autocomplete="off">
               <input class="contact__input" type="text" name="name" aria-label="enter your name" placeholder="Name" required>
-              <input class="contact__input" type="email" name="email" aria-label="enter your email address" placeholder="Email Address" required>
+
+              <div class="contact__input-wrapper">
+                <input class="contact__input contact__input-email" type="email" name="email" aria-label="enter your email address" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" placeholder="Email Address" required>
+                <span class="contact__input-email-error">This field is required</span>
+              </div>
+
               <input class="contact__input" type="text" name="company name" aria-label="enter your company name" placeholder="Company Name" required>
               <input class="contact__input" type="text" name="title" aria-label="enter your message title" placeholder="Title" required>
               <textarea class="contact__textarea" name="message" aria-label="enter your message" placeholder="Message" cols="30" rows="3" required></textarea>
