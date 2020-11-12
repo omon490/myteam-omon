@@ -2122,7 +2122,7 @@ img {
   border-bottom: 1px solid #fff;
 }
 
-.contact__input:not(:placeholder-shown):valid {
+.contact__input:not(:placeholder-shown):invalid {
   border-color: #F67E7E;
 }
 
