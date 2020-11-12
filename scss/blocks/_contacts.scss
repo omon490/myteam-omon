@@ -114,6 +114,10 @@
   color: $white;
 }
 
+.contact__button {
+  border: none;
+}
+
 @include breakpoint-down (1150) {
   .contact {
     background-position: left -100px top, right bottom;
