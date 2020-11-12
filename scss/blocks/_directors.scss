@@ -95,6 +95,7 @@
   z-index: 1;
   left: calc(50% - 26px);
   bottom: -10%;
+  cursor: pointer;
 
   &:hover circle {
     fill: $rapture-blue;
@@ -115,6 +116,7 @@
   z-index: 1;
   left: calc(50% - 26px);
   bottom: -10%;
+  cursor: pointer;
 
   &:hover circle {
     fill: $light-coral;

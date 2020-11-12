@@ -1845,6 +1845,7 @@ img {
   z-index: 1;
   left: calc(50% - 26px);
   bottom: -10%;
+  cursor: pointer;
 }
 
 .directors__button:hover circle {
@@ -1865,6 +1866,7 @@ img {
   z-index: 1;
   left: calc(50% - 26px);
   bottom: -10%;
+  cursor: pointer;
 }
 
 .directors__button--open:hover circle {
