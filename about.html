@@ -408,5 +408,15 @@
     });
   </script><!-- JS -->
 
+  <script>
+    const elBtn = document.querySelectorAll(".directors__button") // + buttonni classi
+    const elItem = document.querySelectorAll(".directors--open")  // itemni buttonni classi
+    elBtn.forEach((b) => {
+      b.onclick = () => {
+        b.parentElement.classList.toggle("directors--open")
+      }
+    })
+  </script>
+
 </body>
 </html>
