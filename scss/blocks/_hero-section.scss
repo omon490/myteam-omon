@@ -2,7 +2,7 @@
 .hero-section {
   padding-bottom: 250px;
   background-image: url("../img/hero-bg-1.svg"),
-                    url("../img/hero-bg-2.svg");
+  url("../img/hero-bg-2.svg");
   background-repeat: no-repeat;
   background-position: calc(50% - 760px) 0, calc(50% + 365px) 355px;
   background-size: auto 200px;
@@ -49,30 +49,30 @@
 // MEDIA
 
 @include breakpoint-down (1060){
-  .hero-section{
+  .hero-section {
     padding-bottom: 200px;
     background-image: url("../img/hero-bg-2.svg");
     background-position: right bottom -100px;
   }
 
-  .hero-section__wrapper{
+  .hero-section__wrapper {
     align-items: center;
   }
 
-  .hero-section__heading{
+  .hero-section__heading {
     font-size: 80px;
     line-height: 80px;
   }
 }
 
 @include breakpoint-down (950){
-  .hero-section__heading{
+  .hero-section__heading {
     max-width: 420px;
   }
 }
 
 @include breakpoint-down (860) {
-  .hero-section__heading{
+  .hero-section__heading {
     font-size: 75px;
     line-height: 75px;
   }
@@ -89,31 +89,31 @@
 }
 
 @include breakpoint-down (768) {
-  .hero-section{
+  .hero-section {
     padding-bottom: 250px;
     background-position: center bottom -100px;
   }
 
-  .hero-section__wrapper{
+  .hero-section__wrapper {
     flex-direction: column;
   }
 
-  .hero-section__heading{
+  .hero-section__heading {
     margin-bottom: 24px;
     text-align: center;
     font-size: 64px;
     line-height: 56px;
   }
 
-  .hero-section__text-devider{
+  .hero-section__text-devider {
     display: none;
   }
 
-  .hero-section__text-wrapper{
+  .hero-section__text-wrapper {
     max-width: 457px;
   }
 
-  .hero-section__text{
+  .hero-section__text {
     text-align: center;
     font-size: 15px;
     line-height: 28px;
@@ -133,8 +133,7 @@
 }
 
 @include breakpoint-down (490) {
-
-  .hero-section__heading{
+  .hero-section__heading {
     font-size: 55px;
     margin-left: auto;
     margin-right: auto;
@@ -142,8 +141,7 @@
 }
 
 @include breakpoint-down (380) {
-
-  .hero-section__heading{
+  .hero-section__heading {
     font-size: 40px;
     line-height: 40px;
   }

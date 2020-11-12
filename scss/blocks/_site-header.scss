@@ -8,7 +8,7 @@
 }
 
 .site-header--open .site-header__sitenav-toggler {
-  background-image: url("../../img/close-icon.svg");
+  background-image: url("../img/close-icon.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -27,9 +27,7 @@
   display: none;
 }
 
-
 @media only screen and (max-width: 730px) {
-
   .site-header {
     padding: 64px 0;
   }
@@ -94,7 +92,6 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
-
 }
 
 @include breakpoint-down (395) {
@@ -141,5 +138,4 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
-
 }

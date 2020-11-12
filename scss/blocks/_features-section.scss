@@ -86,29 +86,29 @@
     padding: 100px 0;
   }
 
-  .features-section__devider{
+  .features-section__devider {
     margin-left: 50px;
   }
 
-  .features-section__wrapper{
+  .features-section__wrapper {
     margin-left: 50px;
     flex-direction: column;
   }
 
-  .features-section__heading{
+  .features-section__heading {
     max-width: 445px;
     margin-bottom: 64px;
     font-size: 32px;
     line-height: 32px;
   }
 
-  .features-section__right-wrapper{
+  .features-section__right-wrapper {
     max-width: 573px;
   }
 }
 
 @include breakpoint-down (660) {
-  .features-section__heading{
+  .features-section__heading {
     max-width: 380px;
   }
 }
@@ -118,15 +118,15 @@
     padding: 64px 0;
   }
 
-  .features-section__heading{
+  .features-section__heading {
     max-width: 300px;
   }
 
-  .features-section__devider{
+  .features-section__devider {
     margin-left: 0;
   }
 
-  .features-section__wrapper{
+  .features-section__wrapper {
     margin-left: 0;
   }
 }

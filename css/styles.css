@@ -525,7 +525,7 @@ img {
 }
 
 .site-header--open .site-header__sitenav-toggler {
-  background-image: url("../../img/close-icon.svg");
+  background-image: url("../img/close-icon.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -1177,7 +1177,7 @@ img {
 
 .rewievs-section {
   padding: 140px 0;
-  background-image: url("../../img/reviews-bg-1.svg"), url("../../img/reviews-bg-2.svg");
+  background-image: url("../img/reviews-bg-1.svg"), url("../img/reviews-bg-2.svg");
   background-repeat: no-repeat;
   background-position: calc(50% - 686px) top, calc(50% + 660px) 596px;
   background-size: 147px 100px, 200px 200px;
@@ -1222,7 +1222,7 @@ img {
 
 @media only screen and (max-width: 1000px) {
   .rewievs-section {
-    background-image: url("../../img/reviews-bg-1.svg"), url("../../img/reviews-bg-2.svg");
+    background-image: url("../img/reviews-bg-1.svg"), url("../img/reviews-bg-2.svg");
     background-position: left top, right bottom -100px;
   }
 }
@@ -1271,7 +1271,7 @@ img {
 }
 
 .reviews {
-  background-image: url("../../img/blockquote-icon.svg");
+  background-image: url("../img/blockquote-icon.svg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 67px 56px;
@@ -1312,7 +1312,7 @@ img {
 .contact-cta {
   padding: 76px 0;
   background-color: #F67E7E;
-  background-image: url("../../img/contact-cta-bg.svg");
+  background-image: url("../img/contact-cta-bg.svg");
   background-repeat: no-repeat;
   background-position: calc(50% - 648px) 40px;
   background-size: contain;

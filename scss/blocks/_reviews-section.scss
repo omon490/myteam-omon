@@ -1,7 +1,7 @@
 .rewievs-section {
   padding: 140px 0;
-  background-image: url("../../img/reviews-bg-1.svg"),
-                    url("../../img/reviews-bg-2.svg");
+  background-image: url("../img/reviews-bg-1.svg"),
+  url("../img/reviews-bg-2.svg");
   background-repeat: no-repeat;
   background-position: calc(50% - 686px) top, calc(50% + 660px) 596px;
   background-size: 147px 100px, 200px 200px;
@@ -44,8 +44,8 @@
 
 @include breakpoint-down (1000) {
   .rewievs-section {
-    background-image: url("../../img/reviews-bg-1.svg"),
-                      url("../../img/reviews-bg-2.svg");
+    background-image: url("../img/reviews-bg-1.svg"),
+    url("../img/reviews-bg-2.svg");
     background-position: left top, right bottom -100px;
   }
 }
@@ -66,7 +66,7 @@
 }
 
 @include breakpoint-down (815) {
-  .reviews-section__heading{
+  .reviews-section__heading {
     max-width: 615px;
     font-size: 32px;
     line-height: 32px;
@@ -78,7 +78,7 @@
     padding-bottom: 70px;
   }
 
-  .reviews-section__heading{
+  .reviews-section__heading {
     max-width: 573px;
   }
 
