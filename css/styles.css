@@ -2122,6 +2122,10 @@ img {
   border-bottom: 1px solid #fff;
 }
 
+.contact__input:not(:placeholder-shown):valid {
+  border-color: #F67E7E;
+}
+
 .contact__input-wrapper {
   position: relative;
   z-index: 1;
@@ -2141,6 +2145,7 @@ img {
 
 .contact__input-email:not(:placeholder-shown):invalid {
   color: #F67E7E;
+  border-color: #F67E7E;
 }
 
 .contact__input-email:not(:placeholder-shown):invalid + .contact__input-email-error {

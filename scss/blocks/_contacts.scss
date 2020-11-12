@@ -103,6 +103,10 @@
   border-bottom: 1px solid $white;
 }
 
+.contact__input:not(:placeholder-shown):valid {
+  border-color: $light-coral;
+}
+
 .contact__input-wrapper {
   position: relative;
   z-index: 1;
@@ -122,6 +126,7 @@
 
 .contact__input-email:not(:placeholder-shown):invalid {
   color: $light-coral;
+  border-color: $light-coral;
 }
 
 .contact__input-email:not(:placeholder-shown):invalid + .contact__input-email-error {
