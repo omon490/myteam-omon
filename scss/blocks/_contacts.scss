@@ -113,3 +113,103 @@
   border-bottom: 1px solid $white;
   color: $white;
 }
+
+@include breakpoint-down (1150) {
+  .contact {
+    background-position: left -100px top, right bottom;
+  }
+
+  .contact__wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact__left-wrapper {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+  }
+
+  .contact__right-wrapper {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact__heading {
+    text-align: center;
+  }
+
+  .contact__text {
+    text-align: center;
+  }
+}
+
+@include breakpoint-down (900) {
+  .contact {
+    background-position: left -100px top, right -100px bottom;
+  }
+
+  .contact__left-wrapper {
+    max-width: 600px;
+  }
+
+  .contact__right-wrapper {
+    max-width: 600px;
+  }
+}
+
+@include breakpoint-down (768) {
+  .contact__left-wrapper {
+    max-width: 515px;
+  }
+
+  .contact__right-wrapper {
+    max-width: 515px;
+  }
+}
+
+@include breakpoint-down (650) {
+  .contact {
+    padding-top: 120px;
+    background-position: left -100px top 150px, right -100px bottom;
+  }
+
+  .contact__left-wrapper {
+    max-width: 450px;
+  }
+
+  .contact__right-wrapper {
+    max-width: 450px;
+  }
+}
+
+@include breakpoint-down (585) {
+  .contact {
+    padding-top: 120px;
+    background-position: left -200px top 150px, right -100px bottom -100px;
+  }
+
+  .contact__left-wrapper {
+    max-width: 450px;
+  }
+
+  .contact__right-wrapper {
+    max-width: 450px;
+  }
+}
+
+@include breakpoint-down (530) {
+  .contact__heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .contact__item-text {
+    width: 100%;
+    max-width: 232px;
+  }
+}

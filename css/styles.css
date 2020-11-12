@@ -2093,6 +2093,98 @@ img {
   color: #fff;
 }
 
+@media only screen and (max-width: 1150px) {
+  .contact {
+    background-position: left -100px top, right bottom;
+  }
+  .contact__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact__left-wrapper {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+  }
+  .contact__right-wrapper {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact__heading {
+    text-align: center;
+  }
+  .contact__text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .contact {
+    background-position: left -100px top, right -100px bottom;
+  }
+  .contact__left-wrapper {
+    max-width: 600px;
+  }
+  .contact__right-wrapper {
+    max-width: 600px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact__left-wrapper {
+    max-width: 515px;
+  }
+  .contact__right-wrapper {
+    max-width: 515px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .contact {
+    padding-top: 120px;
+    background-position: left -100px top 150px, right -100px bottom;
+  }
+  .contact__left-wrapper {
+    max-width: 450px;
+  }
+  .contact__right-wrapper {
+    max-width: 450px;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .contact {
+    padding-top: 120px;
+    background-position: left -200px top 150px, right -100px bottom -100px;
+  }
+  .contact__left-wrapper {
+    max-width: 450px;
+  }
+  .contact__right-wrapper {
+    max-width: 450px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .contact__heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .contact__item-text {
+    width: 100%;
+    max-width: 232px;
+  }
+}
+
 .site-footer {
   padding: 48px 0;
   background-color: #002529;
