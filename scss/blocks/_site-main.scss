@@ -1,5 +1,6 @@
 .site-main {
   padding-top: 56px;
+  flex-grow: 1;
 }
 
 @include breakpoint-down (900) {
