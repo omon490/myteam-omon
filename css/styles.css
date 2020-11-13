@@ -746,6 +746,9 @@ img {
     width: 68%;
     height: 100%;
     background-color: #2C6269;
+    background-image: url("../../img/navbar-bg.svg");
+    background-repeat: no-repeat;
+    background-position: right -100px bottom;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
   }

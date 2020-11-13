@@ -58,6 +58,9 @@
       width: 68%;
       height: 100%;
       background-color: $police-blue;
+      background-image: url("../../img/navbar-bg.svg");
+      background-repeat: no-repeat;
+      background-position: right -100px bottom;
       transform: translateX(100%);
     }
   }
