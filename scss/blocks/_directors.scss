@@ -134,3 +134,19 @@
     opacity: 0.7;
   }
 }
+
+
+@include breakpoint-down (335) {
+  .directors__details-name {
+    margin-bottom: 2px;
+  }
+  .directors__details-text {
+    margin-bottom: 8px;
+  }
+}
+
+@include breakpoint-down (300) {
+  .directors__details {
+    padding: 30px 24px 63px 24px;
+  }
+}
